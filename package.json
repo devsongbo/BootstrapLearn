@@ -1,0 +1,14 @@
+{
+  "name": "BootstrapLearn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/devsongbo/BootstrapLearn.git",
+  "author": "devsongbo <devsongbo@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/browser-sync start --server --no-notify --files='*.html, *.css,*.js'"
+  },
+  "dependencies": {
+    "browser-sync": "^2.24.4"
+  }
+}
